@@ -24,9 +24,6 @@
     "plugins": [
       "expo-notifications"
     ],
-    "build": {
-      "node": "20.11.0"
-    },
     "extra": {
       "eas": {
         "projectId": "17ba7190-497a-4360-832f-869b64dd90e5"
