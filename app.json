@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "家庭待办",
+    "slug": "family-todo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.family.todo"
+    },
+    "android": {
+      "package": "com.family.todo",
+      "permissions": [
+        "NOTIFICATIONS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-notifications"
+    ],
+    "build": {
+      "node": "20.11.0"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "17ba7190-497a-4360-832f-869b64dd90e5"
+      }
+    }
+  }
+}
